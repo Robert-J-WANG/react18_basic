@@ -11,7 +11,7 @@ const hTags = (type) => {
   if (type === 2) return <h2>this is a h2</h2>;
   if (type === 3) return <h3>this is a h3</h3>;
 };
-export default function Index_04() {
+export default function Basic_04() {
   return (
     <>
       <div>

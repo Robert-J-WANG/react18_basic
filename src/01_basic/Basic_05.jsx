@@ -2,7 +2,7 @@
 // 1. 行内样式  styel={{}}
 // 2. 类名样式 : className, 从外部导入样式表
 
-export default function Index_05() {
+export default function Basic_05() {
   const style = { color: "red", fontSize: "40px" };
   return (
     <div>

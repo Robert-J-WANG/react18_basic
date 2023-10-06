@@ -5,7 +5,7 @@ import React from "react";
 // 1. 三元表达式（常用）
 // 2. &&运算符
 const flag = true;
-export default function Index_03() {
+export default function Basic_03() {
   return (
     <>
       <div>

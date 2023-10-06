@@ -16,7 +16,7 @@ const getAge = () => {
 // 3. jsx中使用三元运算符
 const flag = true;
 
-export default function Index_01() {
+export default function Basic_01() {
   return (
     <>
       <div>

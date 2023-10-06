@@ -1,5 +1,5 @@
 import React from "react";
-import "./Index_07.css";
+import "./Basic_07.css";
 import avatar from "./images/avatar.png";
 // 依赖的数据
 const state = {
@@ -48,7 +48,7 @@ const formatData = (time) => {
   //2023-10-10
   return `${time.getFullYear()}-${time.getMonth() + 1}-${time.getDate()}`;
 };
-export default function Index_07() {
+export default function Basic_07() {
   return (
     <div>
       <div className="myApp">

@@ -2,7 +2,7 @@
 // 1. 常用类名样式 : className, 从外部导入样式表
 // 2. 添加一个变量，三元表达式来控制
 
-export default function Index_06() {
+export default function Basic_06() {
   const flagActive = true;
   return (
     <div>

@@ -10,7 +10,7 @@ const fontEnds = [
   { id: 2, name: "Vue" },
   { id: 3, name: "Unknow" },
 ];
-export default function Index_02() {
+export default function Basic_02() {
   return (
     <>
       <div>
