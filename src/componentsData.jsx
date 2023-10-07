@@ -12,6 +12,8 @@ import Component_04 from "./02_component/Component_04";
 import Component_05 from "./02_component/Component_05";
 import Component_06 from "./02_component/Component_06";
 import Component_07 from "./02_component/Component_07";
+import Component_08 from "./02_component/Component_08";
+import Component_09 from "./02_component/Component_09";
 
 export const componentsData = [
   { id: 1, url: "/basic_01", name: "basic_使用表达式", element: <Basic_01 /> },
@@ -64,19 +66,31 @@ export const componentsData = [
   {
     id: 12,
     url: "/component_05",
-    name: "component_JS样式控制",
+    name: "component_修改组件counter案例",
     element: <Component_05 />,
   },
   {
     id: 13,
     url: "/component_06",
-    name: "component_动态控制样式",
+    name: "component_状态不可变原则",
     element: <Component_06 />,
   },
   {
     id: 14,
     url: "/component_07",
-    name: "component_JSX阶段小练习",
+    name: "component_受控表单组件",
     element: <Component_07 />,
+  },
+  {
+    id: 15,
+    url: "/component_08",
+    name: "component_非受控表单组件",
+    element: <Component_08 />,
+  },
+  {
+    id: 16,
+    url: "/component_09",
+    name: "component_阶段小练习",
+    element: <Component_09 />,
   },
 ];

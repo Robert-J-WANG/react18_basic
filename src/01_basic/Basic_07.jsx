@@ -1,6 +1,6 @@
 import React from "react";
 import "./Basic_07.css";
-import avatar from "./images/avatar.png";
+import avatar from "../images/avatar.png";
 // 依赖的数据
 const state = {
   // hot: 热度排序  time: 时间排序
