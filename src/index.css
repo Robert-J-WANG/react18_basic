@@ -22,12 +22,17 @@ ul,li{
   padding: 10px;
   display: flex;
   flex-direction: column;
+  background-color: #ddd;
+
+  /* 自定显示滚动条 */
+  overflow: auto; 
 }
 .main{
   padding: 10px;
   width: 70vw;
   height: 100%;
-  background-color: #ddd;
+   /* 自定显示滚动条 */
+  overflow: auto;
 }
 
 .pActive{

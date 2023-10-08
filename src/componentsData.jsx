@@ -21,6 +21,13 @@ import Communicate_04 from "./03_communicate/Communicate_04";
 import Communicate_05 from "./03_communicate/Communicate_05";
 import Communicate_06 from "./03_communicate/Communicate_06";
 import Communicate_07 from "./03_communicate/Communicate_07";
+import { ComAdvanced_01 } from "./04_componentAdvanced/ComAdvanced_01";
+import { ComAdvanced_02 } from "./04_componentAdvanced/ComAdvanced_02";
+import { ComAdvanced_03 } from "./04_componentAdvanced/ComAdvanced_03";
+import { ComAdvanced_04 } from "./04_componentAdvanced/ComAdvanced_04";
+import { ComAdvanced_05 } from "./04_componentAdvanced/ComAdvanced_05";
+import { ComAdvanced_06 } from "./04_componentAdvanced/ComAdvanced_06";
+import { ComAdvanced_07 } from "./04_componentAdvanced/ComAdvanced_07";
 
 export const componentsData = [
   { id: 1, url: "/basic_01", name: "basic_使用表达式", element: <Basic_01 /> },
@@ -45,6 +52,8 @@ export const componentsData = [
     name: "basic_JSX阶段小练习",
     element: <Basic_07 />,
   },
+
+  /* ------------------------ 组件基础 ------------------------ */
 
   {
     id: 8,
@@ -101,6 +110,7 @@ export const componentsData = [
     element: <Component_09 />,
   },
 
+  /* ------------------------ 组件通信 ------------------------ */
   {
     id: 17,
     url: "/communicate_01",
@@ -142,5 +152,48 @@ export const componentsData = [
     url: "/communicate_07",
     name: "communicate_阶段小练习",
     element: <Communicate_07 />,
+  },
+  /* ------------------------ 组件高级 ------------------------ */
+  {
+    id: 24,
+    url: "/comAdvanced_01",
+    name: "comAdvanced_props的children属性",
+    element: <ComAdvanced_01 />,
+  },
+  {
+    id: 25,
+    url: "/comAdvanced_02",
+    name: "comAdvanced_props类型效验",
+    element: <ComAdvanced_02 />,
+  },
+  {
+    id: 26,
+    url: "/comAdvanced_03",
+    name: "comAdvanced_props默认值的设置",
+    element: <ComAdvanced_03 />,
+  },
+  {
+    id: 27,
+    url: "/comAdvanced_04",
+    name: "communicate_阶段小练习",
+    element: <ComAdvanced_04 />,
+  },
+  {
+    id: 28,
+    url: "/comAdvanced_05",
+    name: "communicate_阶段小练习",
+    element: <ComAdvanced_05 />,
+  },
+  {
+    id: 29,
+    url: "/comAdvanced_06",
+    name: "communicate_阶段小练习",
+    element: <ComAdvanced_06 />,
+  },
+  {
+    id: 30,
+    url: "/comAdvanced_07",
+    name: "communicate_阶段小练习",
+    element: <ComAdvanced_07 />,
   },
 ];
