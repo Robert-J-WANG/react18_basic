@@ -14,6 +14,13 @@ import Component_06 from "./02_component/Component_06";
 import Component_07 from "./02_component/Component_07";
 import Component_08 from "./02_component/Component_08";
 import Component_09 from "./02_component/Component_09";
+import Communicate_01 from "./03_communicate/Communicate_01";
+import Communicate_02 from "./03_communicate/Communicate_02";
+import Communicate_03 from "./03_communicate/Communicate_03";
+import Communicate_04 from "./03_communicate/Communicate_04";
+import Communicate_05 from "./03_communicate/Communicate_05";
+import Communicate_06 from "./03_communicate/Communicate_06";
+import Communicate_07 from "./03_communicate/Communicate_07";
 
 export const componentsData = [
   { id: 1, url: "/basic_01", name: "basic_使用表达式", element: <Basic_01 /> },
@@ -92,5 +99,48 @@ export const componentsData = [
     url: "/component_09",
     name: "component_阶段小练习",
     element: <Component_09 />,
+  },
+
+  {
+    id: 17,
+    url: "/communicate_01",
+    name: "communicate_基础实现",
+    element: <Communicate_01 />,
+  },
+  {
+    id: 18,
+    url: "/communicate_02",
+    name: "communicate_pros接收数据类型的说明",
+    element: <Communicate_02 />,
+  },
+  {
+    id: 19,
+    url: "/communicate_03",
+    name: "communicate_pros解构赋值",
+    element: <Communicate_03 />,
+  },
+  {
+    id: 20,
+    url: "/communicate_04",
+    name: "communicate_子传父的基础实现",
+    element: <Communicate_04 />,
+  },
+  {
+    id: 21,
+    url: "/communicate_05",
+    name: "communicate_兄弟通讯的基础实现",
+    element: <Communicate_05 />,
+  },
+  {
+    id: 22,
+    url: "/communicate_06",
+    name: "communicate_跨组件通讯context对象的使用",
+    element: <Communicate_06 />,
+  },
+  {
+    id: 23,
+    url: "/communicate_07",
+    name: "communicate_阶段小练习",
+    element: <Communicate_07 />,
   },
 ];
