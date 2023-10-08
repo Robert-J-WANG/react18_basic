@@ -175,25 +175,7 @@ export const componentsData = [
   {
     id: 27,
     url: "/comAdvanced_04",
-    name: "communicate_阶段小练习",
+    name: "comAdvanced_阶段小练习todoMVC",
     element: <ComAdvanced_04 />,
-  },
-  {
-    id: 28,
-    url: "/comAdvanced_05",
-    name: "communicate_阶段小练习",
-    element: <ComAdvanced_05 />,
-  },
-  {
-    id: 29,
-    url: "/comAdvanced_06",
-    name: "communicate_阶段小练习",
-    element: <ComAdvanced_06 />,
-  },
-  {
-    id: 30,
-    url: "/comAdvanced_07",
-    name: "communicate_阶段小练习",
-    element: <ComAdvanced_07 />,
   },
 ];
