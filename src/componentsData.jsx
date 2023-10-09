@@ -28,6 +28,15 @@ import { ComAdvanced_04 } from "./04_componentAdvanced/ComAdvanced_04";
 import { ComAdvanced_05 } from "./04_componentAdvanced/ComAdvanced_05";
 import { ComAdvanced_06 } from "./04_componentAdvanced/ComAdvanced_06";
 import { ComAdvanced_07 } from "./04_componentAdvanced/ComAdvanced_07";
+import Hooks_01 from "./05_hooks/Hooks_01";
+import Hooks_02 from "./05_hooks/Hooks_02";
+import Hooks_07 from "./05_hooks/Hooks_07";
+import Hooks_08 from "./05_hooks/Hooks_08";
+import Hooks_09 from "./05_hooks/Hooks_09";
+import Hooks_03 from "./05_hooks/hooks_03";
+import Hooks_04 from "./05_hooks/hooks_04";
+import Hooks_05 from "./05_hooks/hooks_05";
+import Hooks_06 from "./05_hooks/hooks_06";
 
 export const componentsData = [
   { id: 1, url: "/basic_01", name: "basic_使用表达式", element: <Basic_01 /> },
@@ -177,5 +186,61 @@ export const componentsData = [
     url: "/comAdvanced_04",
     name: "comAdvanced_阶段小练习todoMVC",
     element: <ComAdvanced_04 />,
+  },
+
+  /* ----------------------- hooks基础 ---------------------- */
+  {
+    id: 28,
+    url: "/hooks_01",
+    name: "hooks_useState基本使用",
+    element: <Hooks_01 />,
+  },
+  {
+    id: 29,
+    url: "/hooks_02",
+    name: "hooks_useEffect基本使用",
+    element: <Hooks_02 />,
+  },
+  {
+    id: 30,
+    url: "/hooks_03",
+    name: "hooks_useEffect执行时机",
+    element: <Hooks_03 />,
+  },
+  {
+    id: 31,
+    url: "/hooks_04",
+    name: "hooks_自定义hooks",
+    element: <Hooks_04 />,
+  },
+  {
+    id: 32,
+    url: "/hooks_05",
+    name: "hooks_自定义hooks-useLocalStorage",
+    element: <Hooks_05 />,
+  },
+  {
+    id: 33,
+    url: "/hooks_06",
+    name: "hooks_useEffect清除副作用",
+    element: <Hooks_06 />,
+  },
+  {
+    id: 34,
+    url: "/hooks_07",
+    name: "hooks_useEffect发送网络请求",
+    element: <Hooks_07 />,
+  },
+  {
+    id: 35,
+    url: "/hooks_08",
+    name: "hooks_useRef",
+    element: <Hooks_08 />,
+  },
+  {
+    id: 36,
+    url: "/hooks_09",
+    name: "hooks_useContext",
+    element: <Hooks_09 />,
   },
 ];

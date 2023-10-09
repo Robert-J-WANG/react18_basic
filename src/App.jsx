@@ -17,6 +17,7 @@ function App() {
         ))}
       </nav>
       <main className="main">
+        <h1>Happy react !</h1>
         <Routes>
           {componentsData.map((item) => (
             <Route key={item.id} path={item.url} element={item.element} />
