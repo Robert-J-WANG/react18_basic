@@ -9,3 +9,5 @@ Currently, two official plugins are available:
 
 
 https://www.bilibili.com/video/BV1Z44y1K7Fj/?spm_id_from=333.999.0.0&vd_source=1bc0f9be8a3b085d77f16eba9dd3cf11
+
+https://www.yuque.com/fechaichai/qeamqf
